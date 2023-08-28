@@ -1,0 +1,5 @@
+xsel
+festival
+aplay
+whisper.cpp
+ffmpeg
