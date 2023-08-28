@@ -19,3 +19,4 @@ Her er trinene til at opsætte en genvej på Ubuntu:
 Nu har du opsat en genvej til dit projekt på Ubuntu, der kan lette din arbejdsgang.
 
 Du kan også besøge [min GitHub-profil](https://github.com/klyxa) for mere information om dette projekt og andre projekter, jeg arbejder på.
+ :)
