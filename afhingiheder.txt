@@ -3,3 +3,4 @@ festival
 aplay
 whisper.cpp
 ffmpeg
+arecord
