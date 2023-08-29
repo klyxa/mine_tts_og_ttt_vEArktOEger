@@ -21,9 +21,9 @@ echo ""
 echo ""
 
 echo "#!/bin/bash" > mid.sh
-cat ./recording_2.wav.txt | ./filter_2 | ./tryg_komandoer >> mid.sh
+cat ./recording_2.wav.txt | ./filter_2 | ./tryg_komandoer | ./koer.sh
 #cat mid.sh
-bash mid.sh
+#bash mid.sh
 #bash txt_til_tastatus.sh recording.wav.txt
 echo ""
 echo ""

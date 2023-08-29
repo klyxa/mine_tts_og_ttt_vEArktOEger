@@ -1,2 +1,2 @@
 #!/bin/bash
-xsel | espeak-ng -v da
+xsel | ./filter_2 | espeak-ng -v da

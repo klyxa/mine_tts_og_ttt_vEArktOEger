@@ -1,3 +1,3 @@
 #!/bin/bash
-xsel | festival --tts --pipe
+xsel |./filter_2 | festival --tts --pipe
 
