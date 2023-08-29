@@ -1,4 +1,4 @@
-et!/bin/bash
+#!/bin/bash
 
 # Set the sample rate and output file name
 SAMPLE_RATE=16000   # Change this to the desired sample rate
