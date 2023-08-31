@@ -8,9 +8,3 @@ gcc ./tryg_komandoer.c -o tryg_komandoer
 cd whisper.cpp/
 ##make large
 make base.en
-
-cd ..
-cd piper
-make
-
-
