@@ -9,5 +9,8 @@ cd whisper.cpp/
 ##make large
 make base.en
 
+cd ..
+cd piper
+make
 
 
