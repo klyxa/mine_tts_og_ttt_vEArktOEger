@@ -1,4 +1,6 @@
 #!/bin/bash
+script_dir="$(cd "$(dirname "$0")" && pwd)"
+cd "$script_dir"
 
 aplay ding.wav
 #cd /home/klyx/git/whisper.cpp/
