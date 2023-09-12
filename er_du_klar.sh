@@ -1,4 +1,9 @@
 #!/bin/bash
+script_dir="$(cd "$(dirname "$0")" && pwd)"
+cd "$script_dir"
+
+git pull
+git submodule update --init --recursive
 
 # List of programs/dependencies to check
 dependencies=("xsel" "festival" "aplay" "whisper.cpp" "ffmpeg" "arecord" "espeak-ng")
