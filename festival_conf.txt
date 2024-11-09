@@ -1,0 +1,3 @@
+
+/usr/share/festival/init.scm
+(Parameter.set 'Duration_Stretch 0.6)
