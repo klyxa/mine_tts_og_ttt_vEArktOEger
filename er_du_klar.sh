@@ -6,7 +6,7 @@ git pull
 git submodule update --init --recursive
 
 # List of programs/dependencies to check
-dependencies=("xsel" "festival" "aplay" "whisper.cpp" "ffmpeg" "arecord" "espeak-ng")
+dependencies=("xsel" "festival" "aplay" "whisper.cpp" "ffmpeg" "arecord" "espeak-ng" "xclip")
 
 # ANSI color codes
 RED='\033[0;31m'
