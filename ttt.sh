@@ -19,6 +19,7 @@ rm recording_2.wav recording.wav
 echo ""
 echo ""
 
+: '
 echo "#!/bin/bash" > mid.sh
 cat ./recording_2.wav.txt | ./filter_2 | ./tryg_komandoer | ./koer.sh
 #cat mid.sh
@@ -32,7 +33,10 @@ copy_to_clipboard() {
   echo -n "${text}" | xclip -selection clipboard
 }
 
-text=$(cat "recording_2.wav.txt")
 
 copy_to_clipboard "${text}"
+'
+
+text=$(cat "recording_2.wav.txt")
+echo -n "${text}" | xclip -selection clipboard
 aplay ding.wav
