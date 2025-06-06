@@ -22,6 +22,7 @@ echo ""
 
 # echo "#!/bin/bash" > mid.sh
 # cat ./recording_2.wav.txt | ./filter_2 | ./tryg_komandoer | ./koer.sh
+
 #cat mid.sh
 #bash mid.sh
 #bash txt_til_tastatus.sh recording.wav.txt
@@ -33,7 +34,10 @@ copy_to_clipboard() {
   echo -n "${text}" | xclip -selection clipboard
 }
 
-text=$(cat "recording_2.wav.txt")
 
 copy_to_clipboard "${text}"
+'
+
+text=$(cat "recording_2.wav.txt")
+echo -n "${text}" | xclip -selection clipboard
 aplay ding.wav
