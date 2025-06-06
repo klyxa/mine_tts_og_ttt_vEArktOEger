@@ -11,7 +11,7 @@ echo ""
 
 #./whisper.cpp/main -m ./whisper.cpp/models/for-tests-ggml-large.bin -f recording_2.wav -otxt
 #./whisper.cpp/main -m ./whisper.cpp/models/ggml-base.en.bin -f recording_2.wav -otxt
-./whisper.cpp/main -m ./whisper.cpp/models/ggml-large-v3.bin -f recording_2.wav -otxt
+./whisper.cpp/main -m ./whisper.cpp/models/ggml-large-v3.bin -f recording_2.wav --language da -otxt
 
 #cat recording_2.wav.txt
 #rm recording_2.wav.txt recording_2.wav recording.wav
@@ -20,8 +20,8 @@ rm recording_2.wav recording.wav
 echo ""
 echo ""
 
-# echo "#!/bin/bash" > mid.sh
-# cat ./recording_2.wav.txt | ./filter_2 | ./tryg_komandoer | ./koer.sh
+#echo "#!/bin/bash" > mid.sh
+#cat ./recording_2.wav.txt | ./filter_2 | ./tryg_komandoer | ./koer.sh
 #cat mid.sh
 #bash mid.sh
 #bash txt_til_tastatus.sh recording.wav.txt
